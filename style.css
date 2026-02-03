@@ -39,13 +39,21 @@ body {
 .wanthug {
     width: 200px;          /* Ширина картинки */
     height: 200px;         /* Высота картинки */
-    border-radius: 50%;    /* Делает круглой */
-    object-fit: cover;     /* Обрезает если не по размеру */
+    border-radius: 20px;    /* Делает круглой */
+    /* object-fit: cover;     Обрезает если не по размеру */
+    margin-bottom: 20px;   /* Отступ снизу */
+    border: 5px solid #ffffff; /* Рамка розовая, 5px */
+}
+.hug {
+    width: 200px;          /* Ширина картинки */
+    height: 200px;         /* Высота картинки */
+    border-radius: 20px;    /* Делает круглой */
+    /* object-fit: cover;     Обрезает если не по размеру */
     margin-bottom: 20px;   /* Отступ снизу */
     border: 5px solid #ffffff; /* Рамка розовая, 5px */
 }
 h1 {
-    color: #ffffff;       /* Цвет текста (розовый) */
+    color: #0a0a0a;       /* Цвет текста (розовый) */
     font-size: 24px;      /* Размер шрифта */
     margin-bottom: 30px;  /* Отступ снизу */
 }

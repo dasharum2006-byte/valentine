@@ -24,6 +24,13 @@ noBtn.addEventListener('mouseover', () => {
     noBtn.style.left = randomX + 'px';
     noBtn.style.top = randomY + 'px';
 });
+  // Меняем заголовок
+    title.textContent = 'Как так то? Нажми  да';
+    title.style.fontSize = '30px';
+    noBtn.addEventListener('click', ()=> {
+        catImage.src = 'images/hug.gif';
+    
+});
 
 // При нажатии на "Да"
 yesBtn.addEventListener('click', () => {
@@ -31,13 +38,12 @@ yesBtn.addEventListener('click', () => {
     buttonsContainer.style.display = 'none';
     
     // Меняем заголовок
-    title.textContent = 'Я знала, что ты согласишься! 💕';
+    title.textContent = 'Я знала, что ты согласишься 😊';
     title.style.fontSize = '30px';
     
-    // Меняем картинку на другую (GIF с сердечком)
-    catImage.src = 'images/love.gif';
-    catImage.style.width = '250px';
-    catImage.style.height = '250px';
+    // Меняем картинку на другую 
+    catImage.src = 'images/hug.gif';
+
     
     // Добавляем эффект конфетти (опционально)
     document.body.style.background = 'linear-gradient(135deg, #ff9a9e 0%, #fecfef 50%, #ff9a9e 100%)';
