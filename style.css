@@ -1,0 +1,82 @@
+/*сброс стандартных оступов,так как в браузерах автоматически добавляются отсупы*/
+* {
+    /* Убирает внешние отступы у ВСЕХ элементов */
+    margin: 0;
+    /* Убирает внутренние отступы у ВСЕХ элементов */
+    padding: 0;
+    /* Ширина блока = ширина контента + отступы + границы */
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(236, 161, 192, 0.658);
+    /* min высота = 100% экрана */
+    min-height: 100vh; 
+    display: flex;
+    /* центрируем по горизонтали */
+    justify-content: center;
+    /* по вертикали центр */
+    align-items: center;
+    /* отступы внутри body */
+    padding: 20px;
+}
+.container {
+    /* текст по центру */
+    text-align: center;
+    /* белый фон */
+    background: white;
+    /* внутренние отступы */
+    padding: 40px;
+    /* скругление углов */
+    border-radius: 20px;
+    /* тень */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    max-width: 400px;
+    /* ширина 100% от родителя */
+    width: 100%;
+}
+.cat-image {
+    width: 200px;          /* Ширина картинки */
+    height: 200px;         /* Высота картинки */
+    border-radius: 50%;    /* Делает круглой */
+    object-fit: cover;     /* Обрезает если не по размеру */
+    margin-bottom: 20px;   /* Отступ снизу */
+    border: 5px solid #e4459c; /* Рамка розовая, 5px */
+}
+h1 {
+    color: #ffffff;       /* Цвет текста (розовый) */
+    font-size: 24px;      /* Размер шрифта */
+    margin-bottom: 30px;  /* Отступ снизу */
+}
+.buttons {
+    display: flex;            /* Flexbox для кнопок */
+    justify-content: center;  /* Кнопки по центру */
+    gap: 30px;                /* Расстояние между кнопками */
+}
+button {
+    padding: 15px 40px;       /* Внутренние отступы кнопки */
+    font-size: 18px;          /* Размер текста */
+    border: none;             /* Убирает границу */
+    border-radius: 30px;      /* Скругление кнопки */
+    cursor: pointer;          /* Курсор становится пальцем */
+    transition: all 0.3s ease;/* Плавная анимация */
+}
+#yes-btn {
+    background: #f02dbfc5;  /* Розовый фон */
+    color: white;         /* Белый текст */
+}
+
+/* При наведении на кнопку */
+#yes-btn:hover {
+    background: #aa51c07a;       /* Цвет при наведении */
+    transform: scale(1.05);    /* Увеличивается на 5% */
+}
+#no-btn {
+    background: #f02dbfc5;  /* Серый фон */
+    color: #333;          /* Тёмный текст */
+}
+
+#no-btn:hover {
+    background: #aa51c07a;  /* Цвет при наведении */
+}
