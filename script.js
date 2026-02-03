@@ -5,6 +5,9 @@ const noBtn = document.getElementById('no-btn');
 const catImage = document.querySelector('.wanthug');
 const title = document.querySelector('h1');
 const buttonsContainer = document.querySelector('.buttons');
+// Устанавливаем заголовок при загрузке страницы
+title.textContent = 'С 14 февраля. Обнимашки?';
+title.style.fontSize = '30px';
 
 let noClickCount = 0;
 
@@ -28,7 +31,7 @@ noBtn.addEventListener('mouseover', () => {
     title.textContent = 'Как так то? Нажми  да';
     title.style.fontSize = '30px';
     noBtn.addEventListener('click', ()=> {
-        catImage.src = 'images/hug.gif';
+        catImage.src = 'images/Cat.gif';
     
 });
 
