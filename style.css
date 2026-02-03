@@ -10,7 +10,7 @@
 
 body {
     font-family: 'Courier New', Courier, monospace;
-    background-color: rgba(117, 212, 236, 0.658);
+    background-color: rgba(134, 216, 236, 0.39);
     /* min высота = 100% экрана */
     min-height: 100vh; 
     display: flex;
