@@ -2,7 +2,7 @@
 
 const yesBtn = document.getElementById('yes-btn');
 const noBtn = document.getElementById('no-btn');
-const catImage = document.querySelector('.cat-image');
+const catImage = document.querySelector('.wanthug');
 const title = document.querySelector('h1');
 const buttonsContainer = document.querySelector('.buttons');
 
