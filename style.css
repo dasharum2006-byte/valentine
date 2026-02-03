@@ -32,21 +32,21 @@ body {
     border-radius: 20px;
     /* тень */
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-    max-width: 400px;
+    max-width: 500px;
     /* ширина 100% от родителя */
     width: 100%;
 }
 .wanthug {
-    width: 200px;          /* Ширина картинки */
-    height: 200px;         /* Высота картинки */
+    width: 300px;          /* Ширина картинки */
+    height: 300px;         /* Высота картинки */
     border-radius: 20px;    /* Делает круглой */
     /* object-fit: cover;     Обрезает если не по размеру */
     margin-bottom: 20px;   /* Отступ снизу */
     border: 5px solid #ffffff; /* Рамка розовая, 5px */
 }
 .hug {
-    width: 200px;          /* Ширина картинки */
-    height: 200px;         /* Высота картинки */
+    width: 300px;          /* Ширина картинки */
+    height: 300px;         /* Высота картинки */
     border-radius: 20px;    /* Делает круглой */
     /* object-fit: cover;     Обрезает если не по размеру */
     margin-bottom: 20px;   /* Отступ снизу */
