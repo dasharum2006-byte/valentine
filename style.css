@@ -10,7 +10,7 @@
 
 body {
     font-family: 'Courier New', Courier, monospace;
-    background-color: rgba(236, 161, 192, 0.658);
+    background-color: rgba(117, 212, 236, 0.658);
     /* min высота = 100% экрана */
     min-height: 100vh; 
     display: flex;
@@ -36,13 +36,13 @@ body {
     /* ширина 100% от родителя */
     width: 100%;
 }
-.cat-image {
+.wanthug {
     width: 200px;          /* Ширина картинки */
     height: 200px;         /* Высота картинки */
     border-radius: 50%;    /* Делает круглой */
     object-fit: cover;     /* Обрезает если не по размеру */
     margin-bottom: 20px;   /* Отступ снизу */
-    border: 5px solid #e4459c; /* Рамка розовая, 5px */
+    border: 5px solid #ffffff; /* Рамка розовая, 5px */
 }
 h1 {
     color: #ffffff;       /* Цвет текста (розовый) */
@@ -63,7 +63,7 @@ button {
     transition: all 0.3s ease;/* Плавная анимация */
 }
 #yes-btn {
-    background: #f02dbfc5;  /* Розовый фон */
+    background: #7dd6ffc5;  /* Розовый фон */
     color: white;         /* Белый текст */
 }
 
@@ -73,7 +73,7 @@ button {
     transform: scale(1.05);    /* Увеличивается на 5% */
 }
 #no-btn {
-    background: #f02dbfc5;  /* Серый фон */
+    background: #7dd6ffc5;  /* Серый фон */
     color: #333;          /* Тёмный текст */
 }
 
